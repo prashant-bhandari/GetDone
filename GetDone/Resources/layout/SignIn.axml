@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="100"
+    android:minWidth="25px"
+    android:minHeight="25px"
+    android:background="@drawable/Tattoo">
+    <EditText
+        android:id="@+id/EmailIn"
+        android:layout_width="fill_parent"
+        android:layout_height="30.0dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="200dp"
+        android:layout_marginRight="40dp"
+        android:text="Email"
+        android:textColor="@android:color/background_dark"
+        android:background="@android:color/background_light" />
+    <EditText
+        android:password="true"
+        android:id="@+id/Password"
+        android:layout_width="fill_parent"
+        android:layout_height="30.0dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="235dp"
+        android:layout_marginRight="40dp"
+        android:text="Password"
+        android:textColor="@android:color/background_dark"
+        android:background="@android:color/background_light" />
+    <Button
+        android:id="@+id/Signin"
+        android:layout_width="96.0dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:text="Sign in"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="400dp"
+        android:layout_marginRight="40dp"
+        android:layout_alignParentRight="true" />
+</RelativeLayout>
