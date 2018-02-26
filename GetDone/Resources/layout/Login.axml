@@ -11,7 +11,6 @@
     tools:actionBarNavMode="list">
     <Button
         android:id="@+id/Signin"
-        android:onClick="SignIn.axml"
         android:layout_width="96.0dp"
         android:layout_height="wrap_content"
         android:layout_alignParentLeft="true"
@@ -19,7 +18,8 @@
         android:text="Signin"
         android:layout_marginLeft="40dp"
         android:layout_marginTop="400dp"
-        android:layout_marginRight="40dp" />
+        android:layout_marginRight="40dp"
+        android:enabled="true" />
     <Button
         android:id="@+id/SignUp"
         android:layout_width="96.3dp"
